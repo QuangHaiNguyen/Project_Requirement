@@ -135,3 +135,45 @@ Strike through Item means that is is already implemeted
 
 28. The form shall have a save button and cancel button.
 
+29. Whenever the status of the project changed into implementing, the requirement ID and date will be added into the table in the Project timeline sheet.
+
+30. The project timeline sheet shall include the following field:
+    * ID
+    * Start date
+    * End date
+    * Duration
+    * Actual end date
+    * Actual duration
+    * Progress
+    * Status
+
+31. ID and Start date shall be automatically filled by the VBA script describe in 29.
+
+32. End date shall be the focasting end date which is set by user. In other words, it is the theoretical end date.
+
+33. Duration shall be number of date, in which a requirement is being implemented. It is calculated based on Start date and End date. Therefore it is the theoretical duration.
+
+34. Actual end date shall be the date, in which the requirement is atucally implmemented. It shall be the same date that the status of the requirement in the Requirement sheet change from implementing to implemented.
+
+35. The Progress field shall be the percentage of the project which is already implemented. It shall be expressed in:
+    * 0%
+    * 25%
+    * 50%
+    * 75%
+    * 100%
+
+36. Status of the project shall describe the actual state of the requirement implementation.
+
+37. It shall be described with the following parameter:
+    * On going: the requirement is being implemented and it is on time.
+    * Late: the requirement is being implemented and it passed the end date (aka deadline).
+    * Finished on time: the requirement is finished implemented and it is on time.
+    * Finish late: the requirement is finished implemented and it is late.
+
+38. On going shall be determenined by the progress is not 100% and current day less than End date.
+
+39. Late shall be determenined by the progress is not 100% and the current day is greater than end date.
+
+40. Finished on time shall be determenined by the progress is 100% actual end date is smaller or equal end date.
+
+41. Finished late shall be determenined by the progress is 100% actual end date is greater than the end date.
