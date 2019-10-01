@@ -87,7 +87,7 @@ Strike through Item means that is is already implemeted
 
 13. ~~The selected item from requirement number 12 shall be defined when the user clicks on the ID field of an entry.~~
 
-14. The Requirement Sheet shall include five fields
+14. ~~The Requirement Sheet shall include five fields~~
     * ID
     * Date
     * Time
@@ -96,48 +96,48 @@ Strike through Item means that is is already implemeted
     * Type
     * Priority
     * Status
-15. The VBA script shall automatically update the ID field.
+15. ~~The VBA script shall automatically update the ID field.~~
 
-16. The ID field shall start with the prefix R and count from 0000. For example R0000.
+16. ~~The ID field shall start with the prefix R and count from 0000. For example R0000.~~
 
-17. The VBA script shall generate Date and time field automatically.
+17. ~~The VBA script shall generate Date and time field automatically.~~
 
-18. When the user modifies Requirement, Author, Priority or Status field, the VBA script shall automatically update the Date and time field.
+18. ~~When the user modifies Requirement, Author, Priority or Status field, the VBA script shall automatically update the Date and time field.~~
 
-19. Requirement field shall contain the text describing the requirement.
+19. ~~Requirement field shall contain the text describing the requirement.~~
 
-20. Priority field shall describe the priority of the requirement:
+20. ~~Priority field shall describe the priority of the requirement:~~
     * Low
     * Normal
     * High
     * Critical
 
-21. Status field shall describe the status of the requirement:
+21. ~~Status field shall describe the status of the requirement:~~
     * Not-implemented: this requirement won't be implemented
     * Pending: this requirement will be implemented but it must wait for other higher priority requirement to be finished
     * Implementing: the requirement is being implemented
     * Finished: this requirment is implemented
 
-22. In the same sheet, there shall be a section describing how the requirement should be formulated in natural languague.
+22. ~~In the same sheet, there shall be a section describing how the requirement should be formulated in natural languague.~~
 
-23. The Type field shall describe the type of the requirement:
+23. ~~The Type field shall describe the type of the requirement:~~
     * Functional
     * Non-Functional
     * Constraint
 
-24. There shall be one button to let the user add new requirement.
+24. ~~There shall be one button to let the user add new requirement.~~
 
-25. There shall be one button to let the user delete a selected requirement.
+25. ~~There shall be one button to let the user delete a selected requirement.~~
 
-26. The selected requirement in 25 shall be define as, when the user click on the ID field.
+26. ~~The selected requirement in 25 shall be define as, when the user click on the ID field.~~
 
-27. When the user clicks on the add button, a form shall appear to let the user enter the information described in 14.
+27. ~~When the user clicks on the add button, a form shall appear to let the user enter the information described in 14.~~
 
-28. The form shall have a save button and cancel button.
+28. ~~The form shall have a save button and cancel button.~~
 
-29. Whenever the status of the project changed into implementing, the requirement ID and date will be added into the table in the Project timeline sheet.
+29. ~~Whenever the status of the project changed into implementing, the requirement ID and date will be added into the table in the Project timeline sheet.~~
 
-30. The project timeline sheet shall include the following field:
+30. ~~The project timeline sheet shall include the following field:~~
     * ID
     * Start date
     * End date
@@ -147,33 +147,33 @@ Strike through Item means that is is already implemeted
     * Progress
     * Status
 
-31. ID and Start date shall be automatically filled by the VBA script describe in 29.
+31. ~~ID and Start date shall be automatically filled by the VBA script describe in 29.~~
 
-32. End date shall be the focasting end date which is set by user. In other words, it is the theoretical end date.
+32. ~~End date shall be the focasting end date which is set by user. In other words, it is the theoretical end date.~~
 
-33. Duration shall be number of date, in which a requirement is being implemented. It is calculated based on Start date and End date. Therefore it is the theoretical duration.
+33. ~~Duration shall be number of date, in which a requirement is being implemented. It is calculated based on Start date and End date. Therefore it is the theoretical duration.~~
 
-34. Actual end date shall be the date, in which the requirement is atucally implmemented. It shall be the same date that the status of the requirement in the Requirement sheet change from implementing to implemented.
+34. ~~Actual end date shall be the date, in which the requirement is atucally implmemented. It shall be the same date that the status of the requirement in the Requirement sheet change from implementing to implemented.~~
 
-35. The Progress field shall be the percentage of the project which is already implemented. It shall be expressed in:
+35. ~~The Progress field shall be the percentage of the project which is already implemented. It shall be expressed in:~~
     * 0%
     * 25%
     * 50%
     * 75%
     * 100%
 
-36. Status of the project shall describe the actual state of the requirement implementation.
+36. ~~Status of the project shall describe the actual state of the requirement implementation.~~
 
-37. It shall be described with the following parameter:
+37. ~~It shall be described with the following parameter:~~
     * On going: the requirement is being implemented and it is on time.
     * Late: the requirement is being implemented and it passed the end date (aka deadline).
     * Finished on time: the requirement is finished implemented and it is on time.
     * Finish late: the requirement is finished implemented and it is late.
 
-38. On going shall be determenined by the progress is not 100% and current day less than End date.
+38. ~~On going shall be determenined by the progress is not 100% and current day less than End date.~~
 
-39. Late shall be determenined by the progress is not 100% and the current day is greater than end date.
+39. ~~Late shall be determenined by the progress is not 100% and the current day is greater than end date.~~
 
-40. Finished on time shall be determenined by the progress is 100% actual end date is smaller or equal end date.
+40. ~~Finished on time shall be determenined by the progress is 100% actual end date is smaller or equal end date.~~
 
-41. Finished late shall be determenined by the progress is 100% actual end date is greater than the end date.
+41. ~~Finished late shall be determenined by the progress is 100% actual end date is greater than the end date.~~
