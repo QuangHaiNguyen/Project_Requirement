@@ -2,7 +2,7 @@
 
 ## Example
 
-In the same folder, you will find an excel file called Example showing you how to emplemnt the Preject Management template. A lot of time and date in the Example is not consistent because I have change them for the purpose of testing.
+In the same folder, you will find an excel file called Example showing you how to emplemnt the Preject Management template. A lot of time and date in the Example is not consistent because I have created it for mock test.
 
 ## Requirement of this project
 
